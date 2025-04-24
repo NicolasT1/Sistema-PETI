@@ -1,0 +1,27 @@
+
+---
+
+## 📄 `.gitignore` – Para entorno local
+
+```gitignore
+# Entornos virtuales
+venv/
+.env
+
+# Archivos de Streamlit
+*.pyc
+__pycache__/
+.streamlit/
+
+# Archivos de base de datos o de configuración sensible
+*.db
+*.sqlite3
+*.log
+
+# Configuración IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Otros
+.DS_Store
